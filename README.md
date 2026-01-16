@@ -1,6 +1,8 @@
 # nicehatjimmy
 
-A small 'hat' that sits ontop of the nice!nano to support a nice!view based on the work of https://github.com/davidphilipbarr/nicehatharry#
+Based on the work of https://github.com/davidphilipbarr/nicehatharry#.
+I have just updated the GPIO pins to suit my needs.
+A small 'hat' that sits ontop of the nice!nano to support a nice!view.
 
 In your zmk-config repo, in  `config/west.yml`  file:
 
@@ -19,11 +21,11 @@ And then in  `manifest.projects`:
       revision: main
 ````
 
-And finally, in  `build.yaml`:
+And then in  `build.yaml`:
 
 ```
     - board: nice_nano
       shield: 'your_keyboard' nicehatjimmy nice_view
 ```
 
-Place the  `nicehatjimmy`  in place of the nice_view_adapter from the nice_view instructions.
+And finally, place the  `nicehatjimmy`  in place of the nice_view_adapter from the nice_view instructions.
