@@ -1,7 +1,7 @@
 # nicehatjimmy
 
-Based on the work of https://github.com/davidphilipbarr/nicehatharry#.
-I have just updated the GPIO pins to suit my needs.
+Based on the work of https://github.com/davidphilipbarr/nicehatharry#. I have just updated the GPIO pins to suit my needs. 
+
 A small 'hat' that sits ontop of the nice!nano to support a nice!view.
 
 In your zmk-config repo, in  `config/west.yml`  file:
